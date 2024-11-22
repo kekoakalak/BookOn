@@ -1,0 +1,141 @@
+h4,
+h5 {
+  margin: 0 auto 10px auto;
+}
+
+.text-h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.q-mb-md {
+  margin-bottom: 20px;
+}
+
+.text-negative {
+  color: #f44336; /* Error text color */
+}
+
+
+.appointment-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Light gray color for the label and value text */
+.appointment-info .label,
+.appointment-info .value {
+  color: #BEBEBE; /* Light gray color */
+  font-size: 16px;
+
+}
+
+/* Optional: If you want to make the labels even lighter than the values */
+.appointment-info .label {
+  color: #BEBEBE; /* Even lighter gray for the labels */
+  font-size: 16px;
+
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0; /* Remove default margin between rows */
+  padding: 2px 0; /* Add slight padding to control spacing */
+}
+.label {
+  font-weight: light;
+  flex: 1;
+  margin: 0;
+  font-size: 16px;
+}
+.value {
+  flex: 1;
+  text-align: right;
+  margin: 0;
+}
+
+
+.appointment-img-container {
+  display: flex;
+  gap: 8px;
+  border: 1px solid #249990;
+  border-radius: 8px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: 328px;
+  height: 96px;
+  align-items: center;    /* Centers vertically (if needed) */
+  margin: 0 auto;          /* Center horizontally using margin auto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add shadow */
+
+}
+.service-medias {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.appointment-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 64px;
+  height: 64px;;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+.appointment-img-data h6 {
+  font-size: 24px; /* Slightly larger for emphasis */
+  margin-bottom: 5px;
+  margin-top: 0px;
+  text-align: left; /* Align text to the left */
+  line-height: 1; /* Adjust line-height to be tighter */
+}
+
+.appointment-img-data strong {
+  display: block;
+  font-size: 16px; /* Slightly larger for emphasis */
+  margin-bottom: 5px;
+  width: 200px;
+  text-align: left; /* Align text to the left */
+  line-height: 1; /* Adjust line-height to be tighter */
+}
+
+.client-card{
+  margin-top: 20px;
+}
+
+.location{
+  width: 200px;
+  text-align: left; /* Align text to the left */
+  margin-left: 16px;
+
+}
+
+.service-name{
+  margin-left: 16px;
+  font-weight: bold !important; /* Make it bold with !important */
+
+}
+
+
+.icons {
+  color: #BEBEBE; /* Even lighter gray for the labels */
+  margin-right: 5px; /* Adds 10px space to the right of the icon */
+  font-size: 10px; /* Makes the icon smaller */
+}
+
+.notes-txt{
+  color: #BEBEBE; /* Even lighter gray for the labels */
+
+}
+
+.address-icon{
+  color: #249990;
+}

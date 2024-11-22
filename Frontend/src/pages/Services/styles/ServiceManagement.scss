@@ -1,0 +1,110 @@
+:root {
+  --help-icon-color: rgba(250, 90, 90, 0.7);
+}
+.service-card {
+  height: 305px;
+  padding: 0px;
+  cursor: pointer;
+}
+.service-card h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+.service-card p {
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: left;
+}
+
+.service-media {
+  width: 100%;
+  height: 196px;
+  object-fit: cover;
+}
+
+.review-count {
+  font-size: 0.8em;
+  margin-left: 4px;
+}
+
+.no-services-found {
+  color: gray;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.dialog {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+
+  .custom-hr {
+    width: 40%;
+    margin: 0 auto;
+    height: 5px;
+    background: #ccc;
+    border-radius: 2.5px;
+    border: none;
+  }
+  .action {
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      font-weight 0.3s ease;
+
+    .edit-btn,
+    .del-btn {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+    .edit-btn:hover {
+      background-color: teal;
+      color: white;
+    }
+    .del-btn:hover {
+      background-color: teal;
+      color: white;
+    }
+  }
+}
+.confirm-dialog {
+  .main-card {
+    border: solid 1px teal;
+    border-radius: 10px;
+    .cancel-btn {
+      background-color: #f1f1f1 !important;
+      border: 1px solid teal;
+      color: black !important;
+      width: 100px;
+      margin-right: 20px;
+    }
+
+    .confirm-btn {
+      background-color: teal;
+      color: white !important;
+      width: 100px;
+      border: none;
+    }
+  }
+}
+.q-notification.success-notif {
+  background-color: white !important;
+  border: 1px solid rgb(38, 66, 66) !important;
+  color: black !important;
+  font-size: 12px !important;
+  width: 328px !important;
+}
+
+.error-notif {
+  background-color: white !important;
+  border: 1px solid red !important;
+  color: black !important;
+  font-size: 12px !important;
+  width: 328px !important;
+}
+
+.q-notification.success-notif .q-notification__message,
+.q-notification.error-notif .q-notification__message {
+  color: black !important;
+}

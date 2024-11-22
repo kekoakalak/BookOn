@@ -1,0 +1,227 @@
+/* General layout and margin adjustments */
+.app-list {
+  margin-top: 20px;
+}
+
+h3,
+h4,
+h5 {
+  margin: 0 auto 10px auto;
+}
+
+.q-mb-md {
+  margin-bottom: 20px;
+}
+
+.q-pb-md {
+  padding-bottom: 10px;
+}
+
+/* Notification styles */
+.q-notification.success-notif {
+  background-color: white !important;
+  border: 1px solid teal !important;
+  color: #212121 !important;
+  font-size: 12px !important;
+  width: 328px !important;
+}
+
+.error-notif {
+  background-color: white !important;
+  border: 1px solid red !important;
+  color: black !important;
+  font-size: 12px !important;
+  width: 328px !important;
+}
+
+.q-notification.success-notif .q-notification__message,
+.q-notification.error-notif .q-notification__message {
+  color: black !important;
+}
+
+/* Button styles */
+.btn-apply {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #249990;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.rounded-card {
+  border-radius: 16px !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Button groups */
+.q-btn-group {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-group {
+  gap: 10px;
+}
+
+/* Separator styles */
+.separator-or {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.or-text {
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.separator-line {
+  flex: 1;
+  margin: 0 8px;
+}
+
+/* Date range button styles */
+.date-range {
+  border: 1px solid black !important; /* Add border */
+  color: black !important; /* Ensure black text */
+  background-color: transparent !important; /* Ensure transparent background */
+  box-shadow: none !important; /* Remove shadow from flat button */
+  padding: 8px 16px; /* Optional: Add padding for better spacing */
+}
+
+.q-btn.date-range:focus,
+.q-btn.date-range:active {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+}
+
+/* From-to input styling */
+.from-to-input .q-field__control {
+  border-radius: 12px;
+  border: 1px solid #249990;
+  background-color: white;
+  height: 47px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.from-to-input {
+  width: 155px;
+}
+
+.from-to {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-text {
+  display: flex;
+  align-items: center;
+}
+
+/* Save button styling */
+.btn-date-save {
+  width: 89px;
+  height: 40px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px !important;
+  background-color: #249990;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Item border styling */
+.item-border {
+  border: 1px solid #249990;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Flexbox alignment */
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Filter card styling */
+.filter-card {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Full width styles */
+.full-width {
+  width: 100%;
+}
+
+.q-date {
+  width: 100%;
+}
+
+/* Specific for the date-range button group */
+
+.date-range {
+  border: 1px solid black;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 112px;
+  height: 35px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+
+
+
+.dialog {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 8px !important; /* Rounded corners */
+  background-color: white; /* White background for the dialog */
+}
+
+/* Line above the "Completed" option */
+.divider {
+  width: 160px; /* Width of the line */
+  height: 4px; /* Height of the line */
+  background-color: #b7b7b7; /* Line color */
+  margin: 12px auto; /* Center the line */
+}
+
+/* Option text styles */
+.status .option {
+  width: 100%; /* Ensure the button spans the full width */
+  text-align: left; /* Center the text */
+  padding: 12px 0; /* Padding for each option */
+  padding-left: 20px;
+  color: black; /* Default text color */
+  font-size: 16px; /* Text size */
+  cursor: pointer; /* Show pointer cursor for clickable options */
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Highlight on hover and selection */
+.status .option:hover,
+.status .option:active {
+  color: white; /* Text color on hover */
+  background-color: #249990; /* Highlight color */
+}

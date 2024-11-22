@@ -1,0 +1,61 @@
+.time-dia .q-card {
+  width: 432px; /* Set the desired width */
+  max-width: 90vw; /* Responsive max width for smaller screens */
+  border-radius: 15px;
+}
+
+
+.calendar-picker{
+  max-width: 90vw; /* Responsive max width for smaller screens */
+  width: 400px; /* Set the desired width */
+
+}
+
+.label-text{
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 700;
+  display: block;
+}
+
+.input-field{
+border: solid 1px teal !important;
+border-radius: 8px;
+background-color: white;
+}
+
+
+.btn-date{
+  background-color: #249990;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-weight: 300;
+
+}
+
+.btn-proceed{
+  background-color: #249990;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+}
+
+.appointment-form {
+  background-color: #ebebeb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.page-border {
+  border-radius: 50px;
+}
+
+.time-item.q-item--active {
+  background-color: rgba(245, 245, 245, 0.9); /* #F5F5F5 with 90% opacity */
+}
